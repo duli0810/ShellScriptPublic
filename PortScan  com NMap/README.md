@@ -27,8 +27,8 @@ OBS.: Para este Script foi criado dois diretório um chamado "Script" e o outro 
 3 - Crie uma tarefa no crontab
 
     crontab -e
-
-    No meu exemplo o script irá rodar todos os dias a 00:00  
+    
+*No meu exemplo o script irá rodar todos os dias a 00:00  
     
     0 0 * * * /home/<perfil>/Script/PortScanByNMap.sh
 
