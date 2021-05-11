@@ -17,14 +17,14 @@ Segue:
     sudo apt install nmap   =>  Debian e derivados
 
 
-1 - Edite o script com os repositórios para Script "PortScanByNMap.sh", o arquivo "ip.txt" e do Log ( resultado do Scan ). 
+2 - Edite o script com os repositórios para Script "PortScanByNMap.sh", o arquivo "ip.txt" e do Log ( resultado do Scan ). 
 OBS.: Para este Script foi criado dois diretório um chamado "Script" e o outro de "PortScan" dentro /home/<perfil>/ . Dentro do diretório Script foi posto o script "PortScanByNMap.sh" mais o arquivo "ip.txt" , o diretório "PortScan" servira para receber os logs ( resultado do Scan ). 
 
-2 - Torne o Script "PortScanByNMap.sh" executável:
+3 - Torne o Script "PortScanByNMap.sh" executável:
 
     chmod a+x /home/<perfil>/Script/PortScanByNMap.sh
 
-3 - Crie uma tarefa no crontab
+4 - Crie uma tarefa no crontab
 
     crontab -e
     
