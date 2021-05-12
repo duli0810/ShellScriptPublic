@@ -36,4 +36,4 @@ E pronto! Feito o scan diário dos seus servidores!
 
 
 Acesse o Blog e veja o passo a passo: 
-https://acesso8.blogspot.com/
+https://acesso8.blogspot.com/2021/05/portscan-automatizado-com-nmap.html
