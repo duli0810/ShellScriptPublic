@@ -1,4 +1,4 @@
-# Script PortScan automático com NMap 
+# Script - PortScan automátizado com NMap
 
 ### Passo a passo do script de Port Scan ####
 
