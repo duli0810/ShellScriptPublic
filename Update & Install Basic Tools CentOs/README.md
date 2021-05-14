@@ -3,15 +3,15 @@
 O Script irá instalar ferramentas e pacotes ulteis no dia a dia na administração de um servidor CentOs. 
 #
 
-3 - Torne o Script "Update&InstallBasicToolsCentOs.sh" executável:
+1 - Torne o Script "Update&InstallBasicToolsCentOs.sh" executável:
 
     chmod a+x /home/<perfil>/Script/Update&InstallBasicToolsCentOs.sh
 
-8 - Acesse o diretório Script
+2 - Acesse o diretório Script
 
     cd /home/<perfil>8/Script/
 
-4 - Execute o Script
+3 - Execute o Script
 
     ./Update&InstallBasicToolsCentOs.sh
     
