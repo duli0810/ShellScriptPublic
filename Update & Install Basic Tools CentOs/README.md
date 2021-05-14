@@ -1,4 +1,4 @@
-# Script - Update & Install Basic Tools CentOs
+# Script - Update & Install CentOS Basic Tools  
 
 O Script irá instalar ferramentas e pacotes ulteis no dia a dia na administração de um servidor CentOs. 
 #
