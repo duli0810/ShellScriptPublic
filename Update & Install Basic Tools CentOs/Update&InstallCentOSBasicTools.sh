@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ""
-echo                            "################ Script - Update & Install Basic tools ( Ferramentas Basicas ) - CentOs ################"
+echo                            "################ Script - Update & Install CentOS Basic Tools ( Ferramentas Basicas ) - CentOs ################"
 echo ""
 echo                                                  "################ Autor: EDUARDO RODRIGUES ################"
 echo ""
@@ -14,7 +14,7 @@ Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/
   
 "
 
-### Update & Install Basic tools ( Ferramentas Basicas ) - CentOs ###
+### Update & Install CentOS Basic Tools ( Ferramentas Basicas ) - CentOs ###
 
 # *** o comando " -y " serve para by-pass do solicitaçoes de Yes / No em install de pacotes/software ***
 
