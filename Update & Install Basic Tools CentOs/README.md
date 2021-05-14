@@ -1,6 +1,6 @@
 # Script - Update & Install CentOS Basic Tools  
 
-O Script irá instalar ferramentas e pacotes ulteis no dia a dia na administração de um servidor CentOs. 
+O Script irá instalar ferramentas e pacotes úteis no dia a dia na administração de um servidor CentOs. 
 #
 
 1 - Torne o Script "Update&InstallBasicToolsCentOs.sh" executável:
