@@ -9,7 +9,7 @@ O Script irá instalar ferramentas e pacotes úteis no dia a dia na administraç
 
 2 - Acesse o diretório Script
 
-    cd /home/<perfil>8/Script/
+    cd /home/<perfil>/Script/
 
 3 - Execute o Script
 
