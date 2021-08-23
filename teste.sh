@@ -10,9 +10,8 @@ echo ""
 echo ""
 echo ""
 echo ""
-figlet $'Bom dia\nfulano'
-echo 
-"############################################################################
+echo "
+############################################################################
 #                                                                          #
 #  Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/     #
 #                                                                          #
