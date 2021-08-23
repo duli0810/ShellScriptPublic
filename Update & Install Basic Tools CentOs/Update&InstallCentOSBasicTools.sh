@@ -22,37 +22,37 @@ echo "*** o comando " -y " serve para by-pass do solicitaçoes de Yes / No em in
 echo ""
 echo "*** Update CentOs ***"
 echo ""
-yum update
+yum update -y &&
 echo ""
 echo "***  Instalar o Pacote de Comandos de Rede ( net-tools ) ***"
 echo ""
-yum install net-tools -y
+yum install net-tools -y &&
 echo ""
 echo "***  Instalar Comandos de Rede traceroute ***"
 echo ""
-yum install traceroute -y
+yum install traceroute -y &&
 echo ""
 echo "***  Instalar Comandos de Rede Telnet ***"
 echo ""
-yum install telnet -y
+yum install telnet -y &&
 echo ""
 echo "***  Instalar Comandos de Rede tcpdump ***"
 echo ""
-yum install tcpdump -y
+yum install tcpdump -y &&
 echo ""
 echo "***  Instalando o Editor VIM no CentOs ***"
 echo ""
-yum install vim-enhanced -y 
+yum install vim-enhanced -y &&
 echo ""
 echo "***  Utilitário para download ( wget )  e verificaçao de URL ( curl ) ***"
 echo ""
-yum install wget curl bind-utils bash-completion perl -y
+yum install wget curl bind-utils bash-completion perl -y &&
 echo ""
-localectl set-locale LC_CTYPE=en_US.utf8
+localectl set-locale LC_CTYPE=en_US.utf8 &&
 echo ""
 echo "*** instalando os compiladores necessários e compilar pacotes com dependências. ***"
 echo ""
-yum install rpm* gcc gpg* make autoconf rng-tools openssl-devel lzop lzo-devel pam-devel zlib-devel cmake -y
+yum install rpm* gcc gpg* make autoconf rng-tools openssl-devel lzop lzo-devel pam-devel zlib-devel cmake -y &&
 echo ""
 echo "***  Reinicie o sistema: ***"
 echo ""
