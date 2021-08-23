@@ -46,7 +46,7 @@ yum install vim-enhanced -y &&
 echo ""
 echo "***  Utilitário para download ( wget )  e verificaçao de URL ( curl ) ***"
 echo ""
-yum install wget curl bind-utils bash-completion perl -y &&
+yum install wget -y && yum install curl -y && yum install bind-utils -y && yum install bash-completion -y && yum install perl -y &&
 echo ""
 localectl set-locale LC_CTYPE=en_US.utf8 &&
 echo ""
@@ -56,5 +56,5 @@ yum install rpm* gcc gpg* make autoconf rng-tools openssl-devel lzop lzo-devel p
 echo ""
 echo "***  Reinicie o sistema: ***"
 echo ""
-reboot
+echo " --> reboot "
 
