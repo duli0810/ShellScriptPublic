@@ -20,15 +20,15 @@ echo "Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/"
 
 # Update CentOs
 
-yum update -y 
+yum update 
 
 # Instalar o Pacote de Comandos de Rede ( net-tools )
 
-yum install net-tools -y
+yum install net-tools 
 
 # Instalar Comandos de Rede traceroute
 
-yum install traceroute -y
+yum install traceroute
 
 # Instalar Comandos de Rede Telnet
 
