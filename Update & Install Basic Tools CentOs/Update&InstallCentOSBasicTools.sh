@@ -56,5 +56,5 @@ yum install rpm* gcc gpg* make autoconf rng-tools openssl-devel lzop lzo-devel p
 echo ""
 echo "***  Reinicie o sistema: ***"
 echo ""
-echo " --> reboot "
+echo " --> Entre com comando reboot "
 echo ""
