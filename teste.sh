@@ -10,7 +10,7 @@ echo ""
 echo ""
 echo ""
 echo ""
-$ figlet $'Bom dia\nfulano'
+figlet $'Bom dia\nfulano'
 echo 
 "############################################################################
 #                                                                          #
