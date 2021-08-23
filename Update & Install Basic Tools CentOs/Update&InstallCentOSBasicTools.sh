@@ -9,10 +9,10 @@ echo                                                   "################ Criado 
 echo ""
 echo ""
 echo ""
-"
-Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/
+
+echo Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/
   
-"
+
 
 ### Update & Install CentOS Basic Tools ( Ferramentas Basicas ) - CentOs ###
 
