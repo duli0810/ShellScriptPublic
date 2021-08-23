@@ -22,7 +22,7 @@ echo "*** o comando " -y " serve para by-pass do solicitaçoes de Yes / No em in
 echo ""
 echo "*** Update CentOs ***"
 echo ""
-yum update -y
+yum update
 echo ""
 echo "***  Instalar o Pacote de Comandos de Rede ( net-tools ) ***"
 echo ""
