@@ -10,7 +10,7 @@ echo ""
 echo ""
 echo ""
 
-echo Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/
+echo "Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/"
   
 
 
