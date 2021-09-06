@@ -1,10 +1,12 @@
-# ShellScript - PortScan automátizado com NMap
+# ShellScript - PortScan automatizado com NMap
 
 ### Passo a passo do script de Port Scan ####
 
-Acesse o Blog e veja o passo a passo: ["ShellScript - PortScan automátizado com NMap"](https://acesso8.blogspot.com/2021/05/portscan-automatizado-com-nmap.html)
+⭐ Acesse o Blog e veja o passo a passo: ["ShellScript - PortScan automátizado com NMap"](https://acesso8.blogspot.com/2021/05/portscan-automatizado-com-nmap.html)
 
-O Script irá verificar as portas abertas dos servidores listados no arquivo "ip.txt" automáticamente, gerando um arquivo "IP".txt para cada IP listado com o resultado das portas abertas.
+⭐ Acesse o Canal do YouTube e veja o passo a passo: ["👁️ PortScan automatizado com NMap |  ShellScript"](https://youtu.be/lcX5GyE9JQ0)
+
+O Script irá verificar as portas abertas dos servidores listados no arquivo "ip.txt" automaticamente, gerando um arquivo "IP".txt para cada IP listado com o resultado das portas abertas.
  
 #
 
