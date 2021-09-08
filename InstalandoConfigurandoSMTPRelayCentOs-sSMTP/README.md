@@ -9,7 +9,11 @@
 O Procedimento demostra como instalar e configurar o SMTP Relay no CentOs através do sSMPT, usuaremos o um GMail para realizar o envio dos e-mail.
 
 *Com SMTP Relay, podemos integra-lo a uma aplicação ou script, como forma de envio de alertas, relatório e etc...*
- 
+
+⚠️ Atenção: *Caso apresente erro no funcionamento deste procedimento, provavelmente é a falta do  "EPEL repository", para isso instale:*
+
+    yum install epel-release
+
 ## Instalando e Configurando sSMTP 
 
 Segue: 
