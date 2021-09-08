@@ -4,7 +4,7 @@
 
 ⭐ Acesse o Blog : ["Acesso 8 "](https://acesso8.blogspot.com)
 
-⭐ Acesse o Canal do YouTube : ["Acesso 8 - YouTube"](http://www.youtube.com/channel/UCh6CzOE6aWxy_5RYG4To88g?sub_confirmation=1)
+⭐ Acesse o Canal do YouTube : ["✉️ Instalando e Configurando SMTP Relay no CentOs | sSMTP 📩"](https://youtu.be/3kw_M4PuWS8)
 
 O Procedimento demostra como instalar e configurar o SMTP Relay no CentOs através do sSMPT, usuaremos o um GMail para realizar o envio dos e-mail.
 
