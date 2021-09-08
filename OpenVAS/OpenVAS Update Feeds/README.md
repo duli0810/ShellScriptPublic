@@ -24,21 +24,23 @@ Segue:
     
     wget -c https://raw.githubusercontent.com/duli0810/ShellScriptPublic/main/OpenVAS/OpenVAS%20Update%20Feeds/OpenVAS_UpdateFeeds.sh
 
-⚠️ Atenção: No Debian, o comando deve ser executado como usuário _gvm: sudo runuser -u _gvm - greenbone-nvt-sync 
+⚠️ Atenção: No Debian, o comando deve ser executado como usuário _gvm.: Ex.: sudo runuser -u _gvm - greenbone-nvt-sync
          
-   *Faça alteração no script do comando "sudo greenbone-nvt-sync" para:* 
+   *Faça alteração no script, descomente os comandos do Bloco Distribuição Debian e comente os do Bloco Demais Distribuiçoes, ficando assim 👇 :* 
          
-     sudo runuser -u _gvm - greenbone-nvt-sync
+     sudo runuser -u _gvm -- greenbone-nvt-sync --rsync
+     sudo runuser -u _gvm -- greenbone-scapdata-sync --rsync
+     sudo runuser -u _gvm -- greenbone-certdata-sync --rsync
 
-7 - Torne o Script "OpenVAS_UpdateFeeds.sh" executável:
+4 - Torne o Script "OpenVAS_UpdateFeeds.sh" executável:
 
     chmod a+x ./OpenVAS_UpdateFeeds.sh
     
-8 - Verifique o home do Usuario atual onde o script foi salvo:
+5 - Verifique o home do Usuario atual onde o script foi salvo:
 
     pwd
     
-10 - Crie uma tarefa no crontab
+6 - Crie uma tarefa no crontab
 
     crontab -e
     
