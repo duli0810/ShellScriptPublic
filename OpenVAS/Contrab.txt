@@ -1,0 +1,9 @@
+- Minutos: informe números de 0 a 59;
+
+- Horas: informe números de 0 a 23;
+
+- Dias do mês: informe números de 0 a 31;
+
+- Mês: informe números de 1 a 12;
+
+- Dias da semana: informe números de 0 a 7;
