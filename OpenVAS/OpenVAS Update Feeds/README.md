@@ -1,6 +1,6 @@
-# OpenVAS Update Feeds
+# OpenVAS Update Feeds Automático
 
-### Passo a passo do script do OpenVAS Update Feeds ####
+### Passo a passo para script do OpenVAS Update Feeds Automático ####
 
 ⭐ Acesse o Blog : ["Acesso 8 "](https://acesso8.blogspot.com)
 
