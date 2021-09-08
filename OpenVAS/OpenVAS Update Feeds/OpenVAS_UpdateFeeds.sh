@@ -16,9 +16,15 @@ echo "
 "
 echo ""
 echo ""
-echo "No Debian, o comando deve ser executado como usuário _gvm.: sudo runuser -u _gvm - greenbone-nvt-sync"
-echo "Faça alteração no script do comando sudo greenbone-nvt-sync para sudo runuser -u _gvm - greenbone-nvt-sync"
+echo "No Debian, o comando deve ser executado como usuário _gvm.: Ex.: sudo runuser -u _gvm - greenbone-nvt-sync"
+echo "Faça alteração no script, descomente os comandos do Bloco Distribuição Debian e comente os do Bloco Demais Distribuiçoes"
 echo ""
+# Distribuição Debian
+#sudo runuser -u _gvm -- greenbone-nvt-sync --rsync
+#sudo runuser -u _gvm -- greenbone-scapdata-sync --rsync
+#sudo runuser -u _gvm -- greenbone-certdata-sync --rsync
+echo ""
+# Demais Distribuiçoes
 sudo greenbone-nvt-sync
 sudo greenbone-scapdata-sync
 sudo greenbone-certdata-sync
