@@ -1,75 +1,48 @@
-# Instalando e Configurando SMTP Relay no CentOs - sSMTP
+# OpenVAS Update Feeds
 
-### Passo a passo do script de Port Scan ####
+### Passo a passo do script do OpenVAS Update Feeds ####
 
 ⭐ Acesse o Blog : ["Acesso 8 "](https://acesso8.blogspot.com)
 
-⭐ Acesse o Canal do YouTube : ["✉️ Instalando e Configurando SMTP Relay no CentOs | sSMTP 📩"](https://youtu.be/3kw_M4PuWS8)
+⭐ Acesse o Canal do YouTube : ["YouTube Acesso 8"](http://www.youtube.com/channel/UCh6CzOE6aWxy_5RYG4To88g?sub_confirmation=1)
 
-O Procedimento demostra como instalar e configurar o SMTP Relay no CentOs através do sSMPT, usuaremos o um GMail para realizar o envio dos e-mail.
+O Procedimento demostra como configurar o Script OpenVas_UpdateFeeds para realizar a atualizaçao dos Feeds do OpenVAS automaticamente. 
 
-*Com SMTP Relay, podemos integra-lo a uma aplicação ou script, como forma de envio de alertas, relatório e etc...*
-
-⚠️ Atenção: *Caso apresente erro no funcionamento deste procedimento, provavelmente é a falta do  "EPEL repository", para isso instale:*
-
-    yum install epel-release
-
-## Instalando e Configurando sSMTP 
+## Configurando o Script OpenVas_UpdateFeeds
 
 Segue: 
 
-1 - Instalando o "mail command" ( Conjunto de utilitários e daemons para processamento de e-mails )
+1 - Crie o diretório "Script"
+
+    mkdir Script
+
+2 - Acesse o diretório "Script"
+
+    cd Script
+
+3 - Download do Script OpenVAS_UpdateFeeds.sh
     
-    yum install mailx -y
+    wget -c https://raw.githubusercontent.com/duli0810/ShellScriptPublic/main/OpenVAS/OpenVAS%20Update%20Feeds/OpenVAS_UpdateFeeds.sh
         
-2 - Instalando o sSMTP ( O sSMTP é um MTA simples, que envia e-mails para servidor SMTP )
+7 - Torne o Script "OpenVAS_UpdateFeeds.sh" executável:
 
-💡 IMPORTANTE: MTA (Mail Transfer Agent ) => Agente responsavél por enviar e-mails. 
-
-    yum install ssmtp -y
+    chmod a+x ./OpenVAS_UpdateFeeds.sh
     
-3 - Editando o Conf. do sSMTP 
+8 - Verifique o home do Usuario atual onde o script foi salvo:
 
-    vim /etc/ssmtp/ssmtp.conf
- 
- *Insirá as informações abaixo no .conf*
- 
-    TLS_CA_File=/etc/pki/tls/certs/ca-bundle.crt
-    FromLineOverride=YES
-    root=<seu_e-mail@gmail.com>
-    mailhub=smtp.gmail.com:587
-    AuthUser=<seu_e-mail@gmail.com>
-    AuthPass=<sua_senha_do_e-mail>
-    UseTLS=YES
-    UseSTARTTLS=YES
+    pwd
     
-4 - Tornar o sSMPT o MTA padrão    
+10 - Crie uma tarefa no crontab
 
-    mv /usr/sbin/sendmail /usr/sbin/sendmail.bck
+    crontab -e
     
-    ln -s /usr/sbin/ssmtp /usr/sbin/sendmail
-
-## GMail "Permitir aplicativos menos seguros" 
-
-1 - Acesse sua conta do Gmail 
+*No meu exemplo o script irá rodar todos os dias a 00:00  
     
-    
-2 - Acesse Link abaixo e ative a opção
+    0 0 * * * <Informe o home do Usuario>/Script/OpenVAS_UpdateFeeds.sh
+   
+👉 No Contrab a ordem é:  Minutos / Horas / Dias do mês / Mês / Dias da semana  e o "*" significa Todos 
 
-    https://www.google.com/settings/security/lesssecureapps
-
-3 - Acesse Link abaixo e clique em Continuar.
-
-    https://accounts.google.com/DisplayUnlockCaptcha
-    
-## Enviando e-mail de Teste
-
-    echo "<corpo do e-mail>" | mail -s "<assunto>" <e-mail_destinatário>
-    
-🔎 Para ver processo sendo executado durante o envio do e-mail, basta acrescentar "-v":
-
-    echo "<corpo do e-mail>" | mail -v -s "<assunto>" <e-mail_destinatário>
-    
+   
 
 #
 
