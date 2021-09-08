@@ -1,5 +1,7 @@
 #!/bin/bash
 
-/usr/local/sbin/greenbone-nvt-sync
-/usr/local/sbin/greenbone-certdata-sync
-/usr/local/sbin/greenbone-scapdata-sync
+# No Debian, o comando deve ser executado como usuário _gvm.: sudo runuser -u _gvm - greenbone-nvt-sync
+
+sudo greenbone-nvt-sync
+sudo greenbone-scapdata-sync
+sudo greenbone-certdata-sync
