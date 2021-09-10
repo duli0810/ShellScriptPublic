@@ -1,25 +1,25 @@
 #!/bin/bash
 
-yum install epel-release -y
+yum install epel-release -y &&
 
-yum install python-pip -y
+yum install python-pip -y &&
 
-yum install python3-pip -y
+yum install python3-pip -y &&
 
-yum groupinstall 'development tools' -y
+yum groupinstall 'development tools' -y &&
 
-yum install openssl-devel bzip2-devel libffi-devel -y 
+yum install openssl-devel bzip2-devel libffi-devel -y &&
 
-cd /opt
+cd /opt &&
 
-wget https://www.python.org/ftp/python/3.9.7/Python-3.9.7.tgz
+wget https://www.python.org/ftp/python/3.9.7/Python-3.9.7.tgz &&
 
-tar xzf Python-3.9.7.tgz
+tar xzf Python-3.9.7.tgz &&
 
-cd Python-3.9.7
+cd Python-3.9.7 &&
 
-./configure --enable-optimizations
+./configure --enable-optimizations &&
 
-make altinstall
+make altinstall &&
 
-python3.9 -m pip install --upgrade pip
+python3.9 -m pip install --upgrade pip 
