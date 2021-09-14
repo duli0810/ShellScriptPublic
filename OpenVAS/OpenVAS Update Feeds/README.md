@@ -27,7 +27,9 @@ Segue:
 ⚠️ Atenção: No Debian, o comando deve ser executado como usuário _gvm.: Ex.: sudo runuser -u _gvm - greenbone-nvt-sync
          
    *Faça alteração no script, descomente os comandos do Bloco Distribuição Debian e comente os do Bloco Demais Distribuiçoes, ficando assim 👇 :* 
-         
+     
+     nano ./OpenVAS_UpdateFeeds.sh
+
      sudo runuser -u _gvm -- greenbone-nvt-sync --rsync
      sudo runuser -u _gvm -- greenbone-scapdata-sync --rsync
      sudo runuser -u _gvm -- greenbone-certdata-sync --rsync
