@@ -8,7 +8,7 @@
 
 O Script server para validar se uma URL é valida ou não. O mesmo realizar um verificação Whois, caso seja um dominio valido retorna com informaçoes da URL resumida.  
 
-## Configurando o Script OpenVas_UpdateFeeds
+## Baixando e executando o script
 
 Segue: 
 
@@ -16,7 +16,7 @@ Segue:
 
 2 - Download do Script checkurl.sh
     
-    wget -c https://raw.githubusercontent.com/duli0810/ShellScriptPublic/main/OpenVAS/OpenVAS%20Update%20Feeds/OpenVAS_UpdateFeeds.sh
+    wget -c https://raw.githubusercontent.com/duli0810/ShellScriptPublic/main/Validando%20URL/checkurl.sh
 
 3 - Torne o Script "./checkurl.sh" executável:
 
@@ -25,6 +25,8 @@ Segue:
 4 - Execute o script e verifique seu help:
 
     ./checkurl.sh
+#
+ ![image](https://user-images.githubusercontent.com/83621137/146654442-f085e338-aa15-471a-8d06-e7c8f01f4ff0.png)
 
 #
 
