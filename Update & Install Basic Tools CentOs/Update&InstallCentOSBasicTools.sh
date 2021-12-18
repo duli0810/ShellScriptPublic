@@ -40,6 +40,10 @@ echo "***  Instalar Comandos de Rede tcpdump ***"
 echo ""
 yum install tcpdump -y &&
 echo ""
+echo "***  Instalar Comandos Whois ***"
+echo ""
+yum install whois -y &&
+echo ""
 echo "***  Instalando o Editor VIM no CentOs ***"
 echo ""
 yum install vim-enhanced -y &&
