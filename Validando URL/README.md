@@ -18,7 +18,7 @@ Segue:
     
     wget -c https://raw.githubusercontent.com/duli0810/ShellScriptPublic/main/Validando%20URL/validateurl.sh
 
-3 - Torne o Script "./checkurl.sh" executável:
+3 - Torne o Script "./validateurl.sh" executável:
 
     chmod +x ./validateurl.sh
     
