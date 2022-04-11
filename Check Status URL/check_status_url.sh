@@ -5,10 +5,10 @@
 #Nome do Script : check_status_url.sh
 #Descriçao      : Verifica se a URL esta OK (200 / 301), caso contrario apresenta falha. 
 #Autor          : Eduardo Rodrigues da Silva
-#Email          : eduardo.rodrigues@g.globo
-#Equipe         : Operaçao Dados
+#Email          : edu0810@gmail.com
+#Equipe         : 
 #versao         : 1.0
-#Complemento    : KBxxxxxx
+#Complemento    : 
 #                  
 #
 #################################################################################
