@@ -2,11 +2,11 @@
 
 ########################## INFORMAÇOES ##########################################
 #
-#Nome do Script : checkurl.sh                                                                                           
+#Nome do Script : validateurl.sh                                                                                           
 #Descriçao      : Verifica URL em dominios validos                                                                                 
 #Autor          : Eduardo Rodrigues da Silva       	                                               
-#Email          : eduardo.rodrigues@g.globo
-#Equipe         : Operaçao Dados
+#Email          : edu0810@gmail.com
+#Equipe         : xxxxxxx
 #versao         : 1.0
 #Complemento    : Para execução correta do script é necessario instalar o Whois
 #                                           
@@ -36,11 +36,11 @@ help="
 $IYellow *** NECESSARIO INSTALAR WHOIS ***  $NC
 
 
-        Estrutura: ./checkurl <url>
+        Estrutura: ./validateurl.sh <url>
 
         Exemplos:
-                ./checkurl globo.com
-                ./checkurl https://globo.com
+                ./validateurl.sh globo.com
+                ./validateurl.sh https://globo.com
 
 "
 
@@ -50,7 +50,7 @@ $IYellow *** NECESSARIO INSTALAR WHOIS ***  $NC
 
 ###################### ANALISANDO URL ##################################
 
-check_url ()
+Validate ()
 {
 
 if [ "$w" != "" ]
@@ -66,7 +66,7 @@ fi
 
 if [ "$1" != "" ]
         then
-        check_url
+        Validate
 else
         echo -e "$help"
 fi
