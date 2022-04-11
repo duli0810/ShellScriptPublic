@@ -14,7 +14,7 @@ Segue:
 
 1 - Download do Script check_status_url.sh
     
-    wget -c https://raw.githubusercontent.com/duli0810/ShellScriptPublic/main/Validando%20URL/validateurl.sh
+    wget -c https://raw.githubusercontent.com/duli0810/ShellScriptPublic/main/Check%20Status%20URL/check_status_url.sh
 
 2 - Torne o Script "./check_status_url.sh" executável:
 
