@@ -1,6 +1,6 @@
 # Validando URL 
 
-### Passo a passo para script ./checkurl.sh ####
+### Passo a passo para script ./validateurl.sh ####
 
 ⭐ Acesse o Blog : ["Acesso 8 "](https://acesso8.blogspot.com)
 
@@ -14,17 +14,17 @@ Segue:
 
 1 - Instale o Whois no seu S.O.
 
-2 - Download do Script checkurl.sh
+2 - Download do Script validateurl.sh
     
-    wget -c https://raw.githubusercontent.com/duli0810/ShellScriptPublic/main/Validando%20URL/checkurl.sh
+    wget -c https://raw.githubusercontent.com/duli0810/ShellScriptPublic/main/Validando%20URL/validateurl.sh
 
 3 - Torne o Script "./checkurl.sh" executável:
 
-    chmod +x ./checkurl.sh
+    chmod +x ./validateurl.sh
     
 4 - Execute o script e verifique seu help:
 
-    ./checkurl.sh
+    ./validateurl.sh
 #
  ![image](https://user-images.githubusercontent.com/83621137/146654442-f085e338-aa15-471a-8d06-e7c8f01f4ff0.png)
 
