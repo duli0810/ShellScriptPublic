@@ -18,7 +18,7 @@ Segue:
 
 2 - Torne o Script "./check_status_url.sh" executável:
 
-    chmod +x ./check_status_url.sh
+    chmod +x check_status_url.sh
     
 3 - Execute o script e verifique seu help:
 
